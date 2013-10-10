@@ -10,6 +10,7 @@ Copy-Item src\web.config.transform  NuGet\content
 Copy-Item src\CoffeeScriptHttpHandler\bin\Release\CoffeeScriptHttpHandler.dll  NuGet\lib
 Copy-Item src\CoffeeScriptHttpHandler\bin\Release\CoffeeSharp.dll              NuGet\lib
 Copy-Item src\CoffeeScriptHttpHandler\bin\Release\Jurassic.dll                 NuGet\lib
+Copy-Item src\CoffeeSharpMvc\bin\Release\CoffeeSharpMvc.dll				       NuGet\lib
 
 Copy-Item src\Coffee\bin\Release\Coffee.exe       NuGet\tool
 Copy-Item src\Coffee\bin\Release\CoffeeSharp.dll  NuGet\tool
