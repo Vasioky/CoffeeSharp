@@ -14,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{2A6E4B2C
 		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
 		..\create_nuget_package.ps1 = ..\create_nuget_package.ps1
 		..\tools\NuGet.exe = ..\tools\NuGet.exe
+		web.config.transform = web.config.transform
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeSharpMvc", "CoffeeSharpMvc\CoffeeSharpMvc.csproj", "{2027F394-087A-4EA8-B12C-3693FE22941E}"

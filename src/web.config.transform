@@ -5,4 +5,9 @@
       <add path="*.coffee" verb="GET" type="CoffeeSharp.CoffeeScriptHttpHandler, CoffeeScriptHttpHandler" />
     </httpHandlers>
   </system.web>
+  <system.webServer>
+    <handlers>
+      <add name="CoffeeScript" path="*.coffee" verb="GET" type="CoffeeSharp.CoffeeScriptHttpHandler" resourceType="File" preCondition="integratedMode"/>
+    </handlers>
+  </system.webServer>
 </configuration>
